@@ -1,0 +1,24 @@
+{
+  "name": "ono-project-inspector",
+  "displayName": "Ono Project Inspector",
+  "version": "0.3.0",
+  "description": "Inspects an existing software repository and gradually builds a structured, approval-gated AI knowledge base for it (CLAUDE.md, AUDIT.md, docs/project/, and per-topic audit documents), then syncs approved findings back into CLAUDE.md. Never modifies source code.",
+  "author": {
+    "name": "Ono Apps",
+    "email": "yagil@onoapps.com"
+  },
+  "keywords": [
+    "audit",
+    "code-inspection",
+    "documentation",
+    "onboarding",
+    "read-only"
+  ],
+  "source": {
+    "type": "local-symlink",
+    "path": "./plugins/ono-project-inspector",
+    "target": "../Ono-ProjectInspectorPlugin",
+    "note": "For LOCAL development the marketplace serves the plugin from a symlink under plugins/ that points at the sibling Ono-ProjectInspectorPlugin repo. When the plugin is published to GitHub, replace this with a github source in .claude-plugin/marketplace.json."
+  },
+  "_note": "This file is a human-readable descriptor for the ono-project-inspector plugin. Claude Code reads the authoritative plugin entry from .claude-plugin/marketplace.json and the plugin's own .claude-plugin/plugin.json. This descriptor documents the plugin within the marketplace repo."
+}
