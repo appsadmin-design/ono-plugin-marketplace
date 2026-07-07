@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "Ono internal Claude Code marketplace — plugins built and maintained by Ono Apps.",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   "plugins": [
     {
@@ -46,14 +46,14 @@
       }
     },
     {
-      "name": "ono-plugin-QA-ReactNative",
+      "name": "ono-plugin-qa",
       "source": {
         "source": "url",
-        "url": "https://github.com/appsadmin-design/ono-plugin-QA-ReactNative.git",
+        "url": "https://github.com/appsadmin-design/ono-plugin-qa.git",
         "ref": "main"
       },
-      "description": "Figma-grounded QA test planning and dev/QA coverage gap analysis for Ono Apps' React Native features, run in parallel with ono-mobile-dev-plugin.",
-      "version": "0.1.0",
+      "description": "Figma- and spec/LLD-grounded QA test planning, approval, sync, and dev/QA coverage gap analysis for Ono Apps' features across React, React Native, iOS, and Android, run in parallel with ono-mobile-dev-plugin.",
+      "version": "0.3.0",
       "author": {
         "name": "Ono Apps",
         "email": "magen@onoapps.com"
