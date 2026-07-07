@@ -38,8 +38,8 @@
         "url": "https://github.com/appsadmin-design/ono-mobile-dev-plugin.git",
         "ref": "main"
       },
-      "description": "Mobile SDLC workflow for Ono Apps: feature analysis, dev planning, implementation, code review, debugging, QA handoff, and release readiness.",
-      "version": "0.1.0",
+      "description": "Mobile-division SDLC workflow for Ono Apps: feature analysis, dev planning, implementation, code review, debugging, QA handoff, and release readiness across React Native, native iOS, native Android, and React web, with shared process and platform-aware routing.",
+      "version": "0.2.0",
       "author": {
         "name": "Ono Apps",
         "email": "magen@onoapps.com"
@@ -52,7 +52,7 @@
         "url": "https://github.com/appsadmin-design/ono-plugin-QA-ReactNative.git",
         "ref": "main"
       },
-      "description": "Figma-grounded QA test planning and dev/QA coverage gap analysis for Ono Apps' React Native features, run in parallel with ono-react-native-dev-plugin.",
+      "description": "Figma-grounded QA test planning and dev/QA coverage gap analysis for Ono Apps' React Native features, run in parallel with ono-mobile-dev-plugin.",
       "version": "0.1.0",
       "author": {
         "name": "Ono Apps",
