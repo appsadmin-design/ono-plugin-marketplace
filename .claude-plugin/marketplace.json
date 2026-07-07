@@ -58,6 +58,20 @@
         "name": "Ono Apps",
         "email": "magen@onoapps.com"
       }
+    },
+    {
+      "name": "spec-team-toolkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/appsadmin-design/spec-team-toolkit.git",
+        "ref": "main"
+      },
+      "description": "HLD and LLD document builders for the spec team: discovers and scopes a High Level Design with self-QA before customer delivery, and turns a Figma component into a two-part LLD spec for developers/QA.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ono Apps",
+        "email": "magen@onoapps.com"
+      }
     }
   ]
 }
